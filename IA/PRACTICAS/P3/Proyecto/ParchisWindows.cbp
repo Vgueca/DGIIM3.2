@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ParchisWindows" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ParchisWindows" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-O2" />
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-audio-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ParchisWindows" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add library="sfml-network" />
+					<Add library="sfml-audio" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/SFML-2.5.1/lib" />
+			<Add directory="C:/SFML-2.5.1/bin" />
+		</Linker>
+		<Unit filename="AIPlayer.cpp" />
+		<Unit filename="AIPlayer.h" />
+		<Unit filename="Attributes.h" />
+		<Unit filename="Board.cpp" />
+		<Unit filename="Board.h" />
+		<Unit filename="BoardSprite.cpp" />
+		<Unit filename="BoardSprite.h" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="ClickableSprite.cpp" />
+		<Unit filename="ClickableSprite.h" />
+		<Unit filename="Connection.cpp" />
+		<Unit filename="Connection.h" />
+		<Unit filename="Dice.cpp" />
+		<Unit filename="Dice.h" />
+		<Unit filename="DiceSprite.cpp" />
+		<Unit filename="DiceSprite.h" />
+		<Unit filename="GUIPlayer.cpp" />
+		<Unit filename="GUIPlayer.h" />
+		<Unit filename="GameSelector.cpp" />
+		<Unit filename="GameSelector.h" />
+		<Unit filename="IncludesSFML.h" />
+		<Unit filename="Ninja.cpp" />
+		<Unit filename="Ninja.h" />
+		<Unit filename="Parchis.cpp" />
+		<Unit filename="Parchis.h" />
+		<Unit filename="ParchisGUI.cpp" />
+		<Unit filename="ParchisGUI.h" />
+		<Unit filename="PieceSprite.cpp" />
+		<Unit filename="PieceSprite.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="RectangularButton.cpp" />
+		<Unit filename="RectangularButton.h" />
+		<Unit filename="RemotePlayer.cpp" />
+		<Unit filename="RemotePlayer.h" />
+		<Unit filename="SpriteAnimator.cpp" />
+		<Unit filename="SpriteAnimator.h" />
+		<Unit filename="cout_colors.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
